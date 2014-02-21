@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	
+	//set number of bokehs
 	var bokehs = 75;
 	
 	for (i = 0; i < bokehs; i++) { 	
@@ -30,7 +31,7 @@ $(document).ready(function() {
 		
 		$(div).fadeIn('slow', function() {});
 		
-		$('body').append(div);	
+		$('body').append(div);
 		
 	};
 
