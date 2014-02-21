@@ -1,6 +1,8 @@
 $(document).ready(function() {
-
-	for (i = 0; i < 75; i++) { 	
+	
+	var bokehs = 75;
+	
+	for (i = 0; i < bokehs; i++) { 	
 
 		var xSize = $(window).width();
 		var ySize = $(window).height();
