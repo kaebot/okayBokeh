@@ -3,8 +3,11 @@ $(document).ready(function() {
 	//set number of bokehs
 	var bokehs = 75;
 	
+	//set element to which to append divs
+	$containerElement = $('body');
+	
 	for (i = 0; i < bokehs; i++) { 	
-
+		
 		var xSize = $(window).width();
 		var ySize = $(window).height();
 		var opacity = (Math.random()*.9);
@@ -31,7 +34,7 @@ $(document).ready(function() {
 		
 		$(div).fadeIn('slow', function() {});
 		
-		$('body').append(div);
+		$containerElement.append(div);
 		
 	};
 
